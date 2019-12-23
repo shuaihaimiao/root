@@ -1,0 +1,17 @@
+<view class="body">
+<view class="header">
+每天为你推荐一本好书
+</view>
+<image class="book" src="/img/3_03.png"></image>
+<view class="name">许三观卖血记</view>
+<view class="author">余华</view>
+<view class="bigul">
+<view class="ul" bindtap="sishen"></view>
+<view class="ul" bindtap="human" ></view>
+<view class="ul" ></view>
+</view>
+<navigator url="../renlei/renlei"></navigator>
+<view class="join">加入vip,全店免费</view>
+<image class="erweima" src="/img/1_07.png"></image>
+<view class="in" bindtap="shouye">进入</view>
+</view>

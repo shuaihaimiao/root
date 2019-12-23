@@ -1,0 +1,58 @@
+/**index.wxss**/
+
+.body{
+   height: 510px;
+display: flow-root;
+  background-color: #333333;
+  text-align: center
+}
+.header{
+  width: 400rpx;
+  height: 90px;
+  color: white;
+  margin:  auto;
+
+  font-size: 30px
+}
+.book{
+  width: 170px;
+  display: block;
+  margin: auto
+}
+.name{
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.author{
+  color: #434955;
+}
+.ul{
+  width: 10px;
+  height: 5px;
+  background-color: white;
+  float: left;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.bigul{
+  width: 60px;
+  height: 5px;
+  display: flow-root;
+  margin:5px auto;
+
+}
+.erweima{
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  right: 0
+}
+.join{
+  width: 80px;
+  background-color: white;
+  font-size: 10px;
+  float: right;
+  margin-top: 13px;
+}

@@ -1,0 +1,86 @@
+<view class="body">
+  <view class="search"></view>
+  <view class="bif">
+    <view class="type">分类排行</view>
+    <view class="all">查看全部></view>
+  </view>
+  <view class="big">
+    <view class="small">
+      <image src="/img/03.png"></image>科幻
+    </view>
+    <view class="small">
+      <image src="/img/04.png"></image>生活
+    </view>
+    <view class="small">
+      <image src="/img/06.png"></image>露营
+    </view>
+    <view class="small">
+      <image src="/img/07.png"></image>职场
+    </view>
+  </view>
+  <view class="bif">
+    <view class="type">作者排行</view>
+    <view class="all">查看全部></view>
+  </view>
+  <view class="big">
+    <view class="small">
+      <image src="/img/08.png"></image>刘慈欣
+    </view>
+    <view class="small">
+      <image src="/img/09.png"></image>田小花
+    </view>
+    <view class="small">
+      <image src="/img/05.png"></image>马尔克斯
+    </view>
+    <view class="small">
+      <image src="/img/10.png"></image>余秋雨
+    </view>
+
+  </view> 
+  <view class="bif">
+    <view class="type">新发布</view>
+    <view class="all">查看全部></view>
+  </view>
+  <view class="new">
+    <view class="small1">
+      <image src="/img/1_03.png"></image>三体，死神永生
+      <view class="zz">刘慈欣</view>
+    </view>
+    <view class="small1">
+      <image src="/img/2_03.png"></image>人类简史
+      <view class="zz">尤瓦尔.郝利拉</view>
+    </view>
+    <view class="small1">
+      <image src="/img/3_03.png"></image>许三观卖血记
+      <view class="zz">余华</view>
+    </view>
+  </view>
+    <view class="new">
+    <view class="small1">
+      <image src="/img/12.png"></image>未来简史
+      <view class="zz">尤瓦尔.郝利拉</view>
+    </view>
+    <view class="small1">
+      <image src="/img/13.png"></image>自私的基因
+      <view class="zz">理查德.道金斯</view>
+    </view>
+    <view class="small1">
+      <image src="/img/11.png"></image>百年孤独
+      <view class="zz">余华</view>
+    </view>
+  </view>
+    <view class="bif">
+    <view class="type">热门搜索</view>
+  </view>
+  <view class="search">
+    <view class="search1">2018排行榜</view>
+     <view class="search2">职场热门</view>
+       <view class="search3">都市言情</view>
+        <view class="search4">哈佛大学经济管理类</view>
+        <view class="search5">领导才能</view>
+  </view>
+    <view class="bif" style="margin-top:10px">
+    <view class="type">热销榜</view>
+    <view class="all">查看全部></view>
+  </view>
+</view>
