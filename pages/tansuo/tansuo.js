@@ -1,4 +1,4 @@
-// pages/shouye/shouye.js
+// pages/tansuo/tansuo.js
 Page({
 
   /**
@@ -7,14 +7,20 @@ Page({
   data: {
 
   },
-  tansuo:function(){
-    wx.navigateTo({
-      url: '../tansuo/tansuo',
-    })
-  },
-  shujia:function(){
+  shujia: function () {
     wx.navigateTo({
       url: '../shujia/shujia',
+    })
+  },
+  shouye:function(){
+    wx.navigateTo({
+      url: '../shouye/shouye',
+    })
+  },
+  ts:function(){
+    console.log(111)
+    wx.navigateTo({
+      url: '../ts/ts',
     })
   },
   /**

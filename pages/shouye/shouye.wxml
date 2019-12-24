@@ -36,7 +36,7 @@
       <image src="/img/10.png"></image>余秋雨
     </view>
 
-  </view> 
+  </view>
   <view class="bif">
     <view class="type">新发布</view>
     <view class="all">查看全部></view>
@@ -55,7 +55,7 @@
       <view class="zz">余华</view>
     </view>
   </view>
-    <view class="new">
+  <view class="new">
     <view class="small1">
       <image src="/img/12.png"></image>未来简史
       <view class="zz">尤瓦尔.郝利拉</view>
@@ -69,18 +69,45 @@
       <view class="zz">余华</view>
     </view>
   </view>
-    <view class="bif">
+  <view class="bif">
     <view class="type">热门搜索</view>
   </view>
   <view class="search">
     <view class="search1">2018排行榜</view>
-     <view class="search2">职场热门</view>
-       <view class="search3">都市言情</view>
-        <view class="search4">哈佛大学经济管理类</view>
-        <view class="search5">领导才能</view>
+    <view class="search2">职场热门</view>
+    <view class="search3">都市言情</view>
+    <view class="search4">哈佛大学经济管理类</view>
+    <view class="search5">领导才能</view>
   </view>
-    <view class="bif" style="margin-top:10px">
+  <view class="bif" style="margin-top:40px;">
     <view class="type">热销榜</view>
     <view class="all">查看全部></view>
+  </view>
+  <view class="rxb">
+    <image src="/img/14.png"></image>
+    <view class="rxbr">
+      <view style="color:white; font-size:18px; display: flow-root;padding-bottom:5px;"> 三体.死神永生
+        <view style=" float:right;line-height:24px;">...</view>
+        <view style="color:rgb(84,90,113); font-size:13px;">作者：刘慈欣</view>
+      </view>
+      <view class="jianjie">世界经济还含有花了家家户户看快快</view>
+    </view>
+  </view>
+  <view style="height:50px;">
+
+  </view>
+  <view class="bottom">
+    <view class="bottomview">
+      <image src="/img/16.png"></image>
+    </view>
+    <view class="bottomview" bindtap="tansuo">
+      <image src="/img/17.png"></image>
+    </view>
+    <view class="bottomview" bindtap="shujia">
+      <image src="/img/19.png"></image>
+    </view>
+    <view class="bottomview">
+        <image src="/img/21.png"></image>
+    </view>
   </view>
 </view>

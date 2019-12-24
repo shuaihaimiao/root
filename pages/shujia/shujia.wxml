@@ -1,0 +1,70 @@
+<!--pages/shujia/shujia.wxml-->
+<view class="header">书架
+<image class="img1" src="/img/30.png"></image>
+</view>
+ <view class="bif">
+    <view class="type">正在阅读</view>
+    <view class="all">查看全部></view>
+  </view>
+  <view class="main">
+  <view class="small">
+  <image src="/img/14.png" class="img2"></image>
+  <view style="font-size:12px;color:white">三体.死神永生</view>
+  <view style="color:white;font-size:12px">刘慈欣</view>
+  </view>
+  <view class="small">
+    <image src="/img/2_03.png" class="img2"></image>
+  <view style="font-size:12px; color:white">人类简史</view>
+    <view style="color:white;font-size:12px">尤瓦尔.郝拉利</view>
+  </view>
+  
+  <view class="small">
+    <image src="/img/3_03.png" class="img2"></image>
+  <view style="font-size:12px;color:white">许三观卖血记</view>
+      <view style="color:white;font-size:12px">余华</view>
+  </view>
+  </view>
+ <view class="bif">
+    <view class="type">正在阅读</view>
+    <view class="all">查看全部></view>
+  </view>
+  <view class="main">
+  <view class="small">
+  <image src="/img/14.png" class="img2"></image>
+  <view style="font-size:12px;color:white">三体.死神永生</view>
+  <view style="color:white;font-size:12px">刘慈欣</view>
+  </view>
+  <view class="small">
+    <image src="/img/2_03.png" class="img2"></image>
+  <view style="font-size:12px; color:white">人类简史</view>
+    <view style="color:white;font-size:12px">尤瓦尔.郝拉利</view>
+  </view>
+  
+  <view class="small">
+    <image src="/img/3_03.png" class="img2"></image>
+  <view style="font-size:12px;color:white">许三观卖血记</view>
+      <view style="color:white;font-size:12px">余华</view>
+  </view>
+  </view>
+   <view class="bif">
+    <view class="type">正在阅读</view>
+    <view class="all">查看全部></view>
+  </view>
+  <view class="main">
+  <view class="small">
+  <image src="/img/14.png" class="img2"></image>
+  <view style="font-size:12px;color:white">三体.死神永生</view>
+  <view style="color:white;font-size:12px">刘慈欣</view>
+  </view>
+  <view class="small">
+    <image src="/img/2_03.png" class="img2"></image>
+  <view style="font-size:12px; color:white">人类简史</view>
+    <view style="color:white;font-size:12px">尤瓦尔.郝拉利</view>
+  </view>
+  
+  <view class="small">
+    <image src="/img/3_03.png" class="img2"></image>
+  <view style="font-size:12px;color:white">许三观卖血记</view>
+      <view style="color:white;font-size:12px">余华</view>
+  </view>
+  </view>

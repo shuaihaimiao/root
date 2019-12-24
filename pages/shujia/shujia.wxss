@@ -1,0 +1,41 @@
+/* pages/shujia/shujia.wxss */
+.header{
+text-align: center;
+color: white
+}
+.img1{
+  width: 20px;
+  height: 20px;
+  float: right;
+}
+.bif{
+  width: 270px;
+  display: flow-root;
+  margin: auto
+}
+.type{
+  float: left;
+  color: white;
+  line-height: 26.4px
+ 
+}
+.all{
+  float: right;
+  color: white;
+  line-height: 26.4px
+}
+.main{
+  width: 280px;
+  height: 160px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.small{
+  width: 90px;height: 160px;text-align: center;font-size: 12px;
+}
+.img2{
+  width: 90px;
+  height: 120px;
+}

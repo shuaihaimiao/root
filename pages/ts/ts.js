@@ -1,4 +1,4 @@
-// pages/shouye/shouye.js
+// pages/ts/ts.js
 Page({
 
   /**
@@ -7,23 +7,19 @@ Page({
   data: {
 
   },
-  tansuo:function(){
-    wx.navigateTo({
-      url: '../tansuo/tansuo',
-    })
-  },
-  shujia:function(){
-    wx.navigateTo({
-      url: '../shujia/shujia',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
 
   },
-
+ts:function(){
+console.log(111);
+wx.navigateTo({
+  url: '../tansuo/tansuo',
+})
+},
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

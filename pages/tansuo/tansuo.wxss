@@ -1,0 +1,49 @@
+.tansuo{
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  overflow: hidden;
+}
+.img1{
+  width: 170px;
+  height: 240px;
+  display: block;
+  margin: 10px auto;
+}
+.img2{
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-top: -19px;
+}
+.touxiang{
+  width: 182px;
+  height: 40px;
+  margin:10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.touxiang image{
+  width: 40px;
+  height: 40px;
+}
+.bottom{
+  width: 100%;
+  height: 50px;
+ 
+position: fixed;
+bottom: 0px;
+display: flex;
+}
+.bottomview{
+  width: 80px;
+  height: 50px;
+background-color: rgb(33, 39, 46);
+text-align: center;
+
+}
+.bottomview image{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}

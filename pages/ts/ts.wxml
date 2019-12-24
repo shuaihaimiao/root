@@ -1,0 +1,41 @@
+<!--pages/ts/ts.wxml-->
+<view class="tansuo">探索
+  <view>
+    <image src="/img/27.png" class="img2"></image>
+  </view>
+  <view bindtap="ts">
+    <image src="/img/28.png" class="img2 img3"></image>
+  </view>
+  <view class="main">
+    <view>
+    <image class="img1" src="/img/14.png"></image>
+    <view>三体.死神永生</view>
+    </view>
+    <view>
+        <image class="img1" src="/img/11.png"></image>
+        <view>百年孤独</view>
+    </view>
+    <view>
+        <image class="img1" src="/img/29.png"></image>
+        <view>平凡的世界</view>
+    </view>
+    <view>
+        <image class="img1" src="/img/12.png"></image>
+        <view>未来简史</view>
+    </view>
+  </view>
+<view class="bottom">
+  <view class="bottomview" bindtap="shouye">
+    <image src="/img/16.png"></image>
+  </view>
+  <view class="bottomview">
+    <image src="/img/17.png"></image>
+  </view>
+  <view class="bottomview" bindtap="shujia">
+    <image src="/img/19.png"></image>
+  </view>
+  <view class="bottomview">
+    <image src="/img/21.png"></image>
+  </view>
+</view>
+</view>

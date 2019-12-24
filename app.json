@@ -4,7 +4,11 @@
     "pages/logs/logs",
     "pages/human/human",
     "pages/mxj/mxj",
-    "pages/shouye/shouye"
+    "pages/shouye/shouye",
+    "pages/tansuo/tansuo",
+    "pages/shujia/shujia",
+    "pages/ts/ts"
+
   ],
   "window": {
     "backgroundTextStyle": "light",

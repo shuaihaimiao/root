@@ -5,11 +5,13 @@
 }
 .search{
   width: 270px;
+  height: 50px;
   background: rgb(45, 53, 61);
   border-radius: 50px;
   margin: auto;
   display: flex;
   flex-flow: wrap;
+
 }
 .type{
   float: left;
@@ -50,9 +52,11 @@ height: 100px;
   margin:10px auto;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(41, 46, 54);
 }
 .small1{
-  width: 65px;
+  width: 85px;
 font-size: 12.1px;
 color: white
 }
@@ -102,4 +106,50 @@ color: white
   padding: 5px;
   color: yellow;
  margin-top: 10px;
+}
+.rxb{
+  width: 270px;
+  height: 113px;
+  background-color: rgb(41, 47, 57);
+  margin: 20px auto;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.rxb image{
+  width: 80px;
+  height: 113px;
+  
+  /* display: block; */
+  margin-top: -10px;
+}
+.rxbr{
+  width: 180px;
+  height: 108px;
+  padding-top: 5px;
+
+}
+.jianjie{
+color: rgb(84,90,113);
+  height: 62px;
+}
+.bottom{
+  width: 100%;
+  height: 50px;
+ 
+position: fixed;
+bottom: 0px;
+display: flex;
+}
+.bottomview{
+  width: 80px;
+  height: 50px;
+background-color: rgb(33, 39, 46);
+text-align: center;
+
+}
+.bottomview image{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
 }
