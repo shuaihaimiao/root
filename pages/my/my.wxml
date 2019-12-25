@@ -1,0 +1,58 @@
+<!--pages/my/my.wxml-->
+<view class="my">我的
+  <image class="img1" src="/img/31.png" bindtap="my"></image>
+</view>
+<view class="header">
+  <image class="img2" src="/img/32.png"></image>
+  <view class="xx">
+    <view class="name">高海淼</view>
+    <view class="address">河南安阳</view>
+  </view>
+  <view class="share">
+    <image src="/img/33.png"></image>分享
+  </view>
+</view>
+<view class="follow">
+  <view>
+    1286
+    <view>粉丝</view>
+  </view>
+  <view>
+    3368
+    <view>粉丝</view>
+  </view>
+  <view>
+    6673
+    <view>粉丝</view>
+  </view>
+</view>
+<view class="grxx">
+个人信息
+<view style="float:right">></view>
+</view>
+<view class="grxx">
+我的信息
+<view style="float:right" class="cricle">6</view>
+</view>
+<view class="grxx" bindtap="yue">
+账户余额
+<view style="float:right" class="money">1350.00</view>
+</view>
+<view class="grxx" bindtap="pinglun">
+我的评论
+<view style="float:right">></view>
+</view>
+<view class="bottom">
+  <view class="bottomview" bindtap="shouye">
+    <image src="/img/16.png"></image>
+  </view>
+  <view class="bottomview">
+    <image src="/img/17.png"></image>
+  </view>
+  <view class="bottomview" bindtap="shujia">
+    <image src="/img/19.png"></image>
+  </view>
+  <view class="bottomview">
+    <image src="/img/21.png"></image>
+  </view>
+</view>

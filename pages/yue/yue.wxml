@@ -1,0 +1,7 @@
+<view class="main">
+我的余额(元)
+<view class="yue">1350.00</view>
+</view>
+<view class="bottom">充值</view>
+
+

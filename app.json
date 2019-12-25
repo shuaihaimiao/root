@@ -7,8 +7,11 @@
     "pages/shouye/shouye",
     "pages/tansuo/tansuo",
     "pages/shujia/shujia",
-    "pages/ts/ts"
-
+    "pages/ts/ts",
+    "pages/my/my",
+    "pages/shezhi/shezhi",
+    "pages/yue/yue",
+    "pages/pinglun/ping"
   ],
   "window": {
     "backgroundTextStyle": "light",

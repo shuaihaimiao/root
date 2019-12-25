@@ -39,3 +39,23 @@ color: white
   width: 90px;
   height: 120px;
 }
+.bottom{
+  width: 100%;
+  height: 50px;
+ 
+position: fixed;
+bottom: 0px;
+display: flex;
+}
+.bottomview{
+  width: 80px;
+  height: 50px;
+background-color: rgb(33, 39, 46);
+text-align: center;
+
+}
+.bottomview image{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}

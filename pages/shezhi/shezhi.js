@@ -1,4 +1,4 @@
-// pages/shouye/shouye.js
+// pages/shezhi/shezhi.js
 Page({
 
   /**
@@ -7,21 +7,7 @@ Page({
   data: {
 
   },
-  tansuo:function(){
-    wx.navigateTo({
-      url: '../tansuo/tansuo',
-    })
-  },
-  shujia:function(){
-    wx.navigateTo({
-      url: '../shujia/shujia',
-    })
-  },
-  wode:function(){
-    wx.navigateTo({
-      url: '../my/my',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

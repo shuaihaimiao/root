@@ -142,7 +142,7 @@ bottom: 0px;
 display: flex;
 }
 .bottomview{
-  width: 80px;
+  width: 25%;
   height: 50px;
 background-color: rgb(33, 39, 46);
 text-align: center;

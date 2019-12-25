@@ -15,6 +15,7 @@ Page({
       url: '../logs/logs'
     })
   },
+  
   human: function (event) {
     console.log(event);
     wx.navigateTo({
@@ -59,6 +60,7 @@ wx.navigateTo({
       })
     }
   },
+  
   getUserInfo: function (e) {
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo

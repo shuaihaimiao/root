@@ -106,7 +106,7 @@
     <view class="bottomview" bindtap="shujia">
       <image src="/img/19.png"></image>
     </view>
-    <view class="bottomview">
+    <view class="bottomview" bindtap="wode">
         <image src="/img/21.png"></image>
     </view>
   </view>

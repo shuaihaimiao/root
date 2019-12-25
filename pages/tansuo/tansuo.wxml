@@ -18,10 +18,10 @@
 <view style="text-align:center;font-size:14px;">403人阅读</view>
 <view class="bottom">
   <view class="bottomview" bindtap="shouye">
-    <image src="/img/16.png"></image>
+    <image src="/img/15.png"></image>
   </view>
   <view class="bottomview">
-    <image src="/img/17.png"></image>
+    <image src="/img/18.png"></image>
   </view>
   <view class="bottomview" bindtap="shujia">
     <image src="/img/19.png"></image>

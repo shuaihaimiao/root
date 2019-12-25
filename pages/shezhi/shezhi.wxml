@@ -1,0 +1,27 @@
+<view class="word">设置</view>
+<view class="main">
+  查看账户
+  <view style="float:right;margin-right:10px;">></view>
+</view>
+<view class="main">
+  个人资料
+  <view style="float:right;margin-right:10px;">></view>
+</view>
+<view class="main">
+消息提醒
+  <view style="float:right;margin-right:10px;"><switch color="rgb(251,104,148)" checked="false"></switch></view>
+</view>
+<view class="main">
+  清理缓存
+  <view style="float:right;margin-right:10px;">300MB></view>
+</view>
+<view class="main">
+ 帮助中心
+  <view style="float:right;margin-right:10px;">></view>
+</view>
+
+<view class="main">
+ 关于我们
+  <view style="float:right;margin-right:10px;">></view>
+</view>
+<view class="bottom">退出登录</view>

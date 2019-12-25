@@ -8,51 +8,52 @@ display: flow-root;
 }
 .header{
   width: 400rpx;
-  height: 90px;
+  height: 212.4rpx;
   color: white;
   margin:  auto;
 
-  font-size: 30px
+  font-size: 64rpx
 }
 .book{
-  width: 170px;
+  width: 410rpx;
+  height: 510rpx;
   display: block;
   margin: auto
 }
 .name{
   color: white;
-  font-size: 20px;
-  margin-top: 5px;
+  font-size: 47.2rpx;
+  margin-top: 11.8rpx;
 }
 .author{
   color: #434955;
 }
 .ul{
-  width: 10px;
-  height: 5px;
+  width: 23.6rpx;
+  height: 11.8rpx;
   background-color: white;
   float: left;
-  margin-left: 10px;
-  border-radius: 10px;
+  margin-left: 23.6rpx;
+  border-radius: 23.6rpx;
 }
 .bigul{
-  width: 60px;
-  height: 5px;
+  width: 141.6rpx;
+  height: 11.8rpx;
   display: flow-root;
-  margin:5px auto;
+  margin:11.8rpx auto;
 
 }
 .erweima{
-  width: 80px;
-  height: 80px;
+  width: 188.8rpx;
+  height: 188.8rpx;
   position: absolute;
   bottom: 0;
   right: 0
 }
 .join{
-  width: 80px;
+  width: 188.8rpx;
   background-color: white;
-  font-size: 10px;
+  font-size: 23.6rpx;
   float: right;
-  margin-top: 13px;
+  margin-top: 30.68rpx;
 }
