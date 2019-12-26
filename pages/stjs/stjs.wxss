@@ -1,0 +1,162 @@
+.rxb{
+  width: 637.2rpx;
+  height: 320rpx;
+  background-color: rgb(41, 47, 57);
+  margin: 20px auto;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.img1{
+  width: 220rpx;
+  height: 290rpx;
+  
+  /* display: block; */
+  margin-top: -26.8rpx;
+}
+.rxbr{
+  width: 424.8rpx;
+  height: 254.88rpx;
+  padding-top: 11.8rpx;
+
+}
+.jianjie{
+color: rgb(84,90,113);
+  margin-left:23.6rpx
+}
+.img2{
+  width: 41.5rpx;
+  height: 41.5rpx;
+  
+}
+.star{
+  margin-left: 10px;
+  color: yellow;
+}
+.collection{
+  width: 637.2rpx;
+  height: 120rpx;
+  margin: auto;
+  border-top:1px solid rgb(50,55,68); 
+  display: flex;
+  justify-content: space-between;
+  color: white
+}
+.collection view{
+  width:215rpx;
+  height: 120rpx;
+align-items: center;
+  text-align: center;
+  line-height: 120rpx;
+}
+.img3{
+  width: 52.6rpx;
+  height: 52.6rpx;
+  position: relative;
+  top: 10rpx;
+}
+.main{
+  width: 640rpx;
+  margin: auto;
+  padding-bottom:50rpx; 
+  border-bottom: 1px solid #696699
+}
+.xiangqing{
+  color: white
+}
+.word{
+  color:#666699;
+  margin-top: 26rpx;
+}
+.img4{
+   width: 41.5rpx;
+  height: 41.5rpx;
+  float: right;
+  margin-right: 23.6rpx;
+}
+.main3{
+  width: 637.2rpx;
+  height: 306.8rpx;
+ /* border-bottom: 1px solid rgb(43,51,60); */
+
+  margin:42.2rpx auto;
+  display: flex;
+  justify-content: space-between;
+    overflow: hidden;
+}
+.img5{
+  width: 78.8rpx;
+  height: 78.8rpx;
+}
+.main4{
+  width: 78.8rpx;
+  height: 100%;
+}
+.main5{
+  width: 530.4rpx;
+  height: 300rpx;
+  color: white;
+   border-bottom: 1px solid rgb(133, 140, 170) ;
+  
+}
+.comment{
+  color: rgb(133, 140, 170) ;
+   
+}
+ .time{
+   color: rgb(35, 71, 228) ;
+   margin-top:23.6rpx; 
+ }
+ .bottom{
+   height: 160rpx;
+   background-color: rgb(50,58,73);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+ }
+ .pay{
+   width: 610rpx;
+   height: 140rpx;
+   display: flex;
+ justify-content: space-between;
+ align-items: center
+ }
+ .see{
+   width: 150rpx;
+   height: 100rpx;
+   background-color: #999999;
+     line-height: 100rpx;
+   text-align: center;
+   color: white;
+   border-radius: 50rpx;
+ }
+ .purchase{
+   width: 400rpx;
+   height: 100rpx;
+   background-color: #ff6699;
+   line-height: 100rpx;
+   text-align: center;
+   color: white;
+border-radius: 50rpx;
+ }
+ .qq{
+  width: 755.2rpx;
+   height: 200rpx;
+   background-color: rebeccapurple;
+   margin: auto;
+   position: fixed;
+   bottom: 0;  
+   text-align: center;
+  
+ }
+ .close{
+   color: white;
+   float: right;
+   margin-right: 23.5rpx;
+ }
+ .qq image{
+   width: 85rpx;
+   height: 85rpx;
+   margin-top: 55rpx;
+ }

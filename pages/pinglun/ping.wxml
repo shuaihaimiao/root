@@ -1,2 +1,38 @@
 <!--pages/pinglun/ping.wxml-->
-<text>pages/pinglun/ping.wxml</text>
+<view class="header">评论
+  <image src="/img/34.png" class="img1"></image>
+</view>
+<view class="main">
+  <view class="main1">
+    <image src="/img/32.png" class="img2"></image>
+  </view>
+  <view class="main2">
+    <view class="name">捂着心脏别让它疼</view>
+    <view class="comment">11月11号下的单39元加运费6元共凶45元，到11月14号就降了10多元钱，按道理双十一应该便宜，京东居然还有这样较划的**！！。</view>
+    <view class="time">3-13 13:52</view>
+  </view>
+  
+</view>
+
+<view class="main">
+  <view class="main1">
+    <image src="/img/32.png" class="img2"></image>
+  </view>
+  <view class="main2">
+    <view class="name">捂着心脏别让它疼</view>
+    <view class="comment">11月11号下的单39元加运费6元共凶45元，到11月14号就降了10多元钱，按道理双十一应该便宜，京东居然还有这样较划的**！！。</view>
+    <view class="time">3-13 13:52</view>
+  </view>
+  
+</view>
+<view class="main">
+  <view class="main1">
+    <image src="/img/32.png" class="img2"></image>
+  </view>
+  <view class="main2">
+    <view class="name">捂着心脏别让它疼</view>
+    <view class="comment">11月11号下的单39元加运费6元共凶45元，到11月14号就降了10多元钱，按道理双十一应该便宜，京东居然还有这样较划的**！！。</view>
+    <view class="time">3-13 13:52</view>
+  </view>
+  
+</view>

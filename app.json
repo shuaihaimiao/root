@@ -11,7 +11,9 @@
     "pages/my/my",
     "pages/shezhi/shezhi",
     "pages/yue/yue",
-    "pages/pinglun/ping"
+    "pages/pinglun/ping",
+    "pages/kehuan/kehuan",
+    "pages/stjs/stjs"
   ],
   "window": {
     "backgroundTextStyle": "light",

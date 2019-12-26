@@ -1,0 +1,63 @@
+<view class="rxb" bindtap="stjs">
+  <image class="img1" src="/img/14.png"></image>
+  <view class="rxbr">
+    <view style="color:white; font-size:18px; display: flow-root;padding-bottom:5px; margin-left:23.6rpx"> 三体.死神永生
+      <view style=" float:right;line-height:24px;">...</view>
+      <view style="color:rgb(84,90,113); font-size:13px;">作者：刘慈欣</view>
+    </view>
+    <view class="jianjie">世界经济还含有花了家家户户看快快</view>
+    <view class="star">
+      <image class="img2" src="/img/39.png"></image>
+      <image class="img2" src="/img/39.png"></image>
+      <image class="img2" src="/img/39.png"></image>
+      <image class="img2" src="/img/39.png"></image>
+      <image class="img2" src="/img/39.png"></image>5.0
+    </view>
+  </view>
+</view>
+<view class="collection">
+  <view bindtap="collection">
+    <image class="img3" src="/img/40.png"></image>收藏
+  </view>
+  <view bindtap="shall">
+    <image class="img3" bindtap="shall" src="/img/33.png"></image>分享</view>
+  <view bindtap="shujia">
+    <image class="img3" src="/img/19.png"></image>放入书架</view>
+
+</view>
+<view class="main">
+  <view class="xiangqing">详情</view>
+  <view class="word">与三体文明的战争使人类第一次看到了宇宙黑暗的真相，地球文明像一个恐惧的孩子，熄灭了寻友的篝火，在暗夜中发抖。自以为历经沧桑，其</view>
+
+</view>
+<view class="main" style="margin-top:40rpx;">
+  <view class="xiangqing">查看目录
+    <image class="img4" src="/img/34.png"></image>
+  </view>
+</view>
+<view class="xiangqing" style="margin-left:55rpx;">评价</view>
+<view class="main3">
+
+  <view class="main4">
+    <image src="/img/32.png" class="img5"></image>
+  </view>
+  <view class="main5">
+    <view class="name">捂着心脏别让它疼</view>
+    <view class="comment">11月11号下的单39元加运费6元共凶45元，到11月14号就降了10多元钱，按道理双十一应该便宜，京东居然还有这样较划的**！！。</view>
+    <view class="time">3-13 13:52</view>
+  </view>
+
+</view>
+<view class="bottom">
+  <view class="pay">
+    <view class="see">试看</view>
+    <view class="purchase">购买</view>
+  </view>
+</view>
+<view hidden="{{xxx}}" class="qq">
+  <view bindtap="yyy" class="close">x</view>
+  <image src="/img/41.png" bindtap="pyx"></image>
+  <image src="/img/42.png" bindtap="pyx"></image>
+  <image src="/img/43.png" bindtap="pyx"></image>
+  <image src="/img/44.png" bindtap="pyx"></image>
+</view>

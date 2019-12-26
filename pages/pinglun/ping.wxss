@@ -1,1 +1,43 @@
-/* pages/pinglun/ping.wxss */
+.header{
+  text-align: center;
+  color: white
+}
+.img1{
+  width: 47.2rpx;
+  height: 47.2rpx;
+  float: right;
+  margin-right: 23.6rpx 
+}
+.main{
+  width: 637.2rpx;
+  height: 306.8rpx;
+ /* border-bottom: 1px solid rgb(43,51,60); */
+
+  margin:42.2rpx auto;
+  display: flex;
+  justify-content: space-between;
+    overflow: hidden;
+}
+.img2{
+  width: 78.8rpx;
+  height: 78.8rpx;
+}
+.main1{
+  width: 78.8rpx;
+  height: 100%;
+}
+.main2{
+  width: 530.4rpx;
+  height: 300rpx;
+  color: white;
+   border-bottom: 1px solid rgb(133, 140, 170) ;
+  
+}
+.comment{
+  color: rgb(133, 140, 170) ;
+   
+}
+ .time{
+   color: rgb(133, 140, 170) ;
+   margin-top:23.6rpx; 
+ }

@@ -1,33 +1,51 @@
-// pages/shouye/shouye.js
+// pages/stjs/stjs.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    xxx: true,
   },
-  tansuo:function(){
-    wx.navigateTo({
-      url: '../tansuo/tansuo',
+  pyx:function(){
+    wx.showModal({
+      title: '',
+      content: '分享成功',
     })
   },
-  shujia:function(){
-    wx.navigateTo({
-      url: '../shujia/shujia',
+  collection: function () {
+    wx.showModal({
+      title: '提示',
+      content: '收藏成功',
+      success(res) {
+        if (res.confirm) {
+          console.log('用户点击确定')
+        } else if (res.cancel) {
+          console.log('用户点击取消')
+        }
+      }
     })
+  }
+  ,
+  shall: function () {
+    this.setData({
+      xxx: false
+    }),
+      console.log(444)
   },
-  wode:function(){
-    wx.navigateTo({
-      url: '../my/my',
-    })
-  },
-  kehuan:function(){
-    wx.navigateTo({
-      url: '../kehuan/kehuan',
+yyy(){
+  this.setData({
+    xxx:true
+  })
+},
+  shujia: function () {
+    wx.showModal({
+      title: '',
+      content: '这本书成功的放入了书架',
     })
   },
   /**
+   * 
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {

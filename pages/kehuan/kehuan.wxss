@@ -1,0 +1,30 @@
+.header{
+  text-align: center;
+  color: white
+}
+.rxb{
+  width: 637.2rpx;
+  height: 266.68rpx;
+  background-color: rgb(41, 47, 57);
+  margin: 20px auto;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.rxb image{
+  width: 188.8rpx;
+  height: 266.68rpx;
+  
+  /* display: block; */
+  margin-top: -26.8rpx;
+}
+.rxbr{
+  width: 424.8rpx;
+  height: 254.88rpx;
+  padding-top: 11.8rpx;
+
+}
+.jianjie{
+color: rgb(84,90,113);
+  height: 146.32rpx;
+}

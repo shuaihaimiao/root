@@ -1,0 +1,51 @@
+<view class="header">科幻</view>
+<view class="rxb" bindtap="stjs">
+  <image src="/img/14.png"></image>
+  <view class="rxbr">
+    <view style="color:white; font-size:18px; display: flow-root;padding-bottom:5px;"> 三体.死神永生
+      <view style=" float:right;line-height:24px;">...</view>
+      <view style="color:rgb(84,90,113); font-size:13px;">作者：刘慈欣</view>
+    </view>
+    <view class="jianjie">世界经济还含有花了家家户户看快快</view>
+  </view>
+</view>
+<view class="rxb">
+  <image src="/img/12.png"></image>
+  <view class="rxbr">
+    <view style="color:white; font-size:18px; display: flow-root;padding-bottom:5px;"> 未来简史
+      <view style=" float:right;line-height:24px;">...</view>
+      <view style="color:rgb(84,90,113); font-size:13px;">作者：尤瓦尔.郝拉利</view>
+    </view>
+    <view class="jianjie">世界经济还含有花了家家户户看快快</view>
+  </view>
+</view>
+<view class="rxb">
+  <image src="/img/36.png"></image>
+  <view class="rxbr">
+    <view style="color:white; font-size:18px; display: flow-root;padding-bottom:5px;"> 相信自己
+      <view style=" float:right;line-height:24px;">...</view>
+      <view style="color:rgb(84,90,113); font-size:13px;">作者：艾萨克•阿西莫夫</view>
+    </view>
+    <view class="jianjie">世界经济还含有花了家家户户看快快</view>
+  </view>
+</view>
+<view class="rxb">
+  <image src="/img/37.png"></image>
+  <view class="rxbr">
+    <view style="color:white; font-size:18px; display: flow-root;padding-bottom:5px;"> 永恒的终结
+      <view style=" float:right;line-height:24px;">...</view>
+      <view style="color:rgb(84,90,113); font-size:13px;">作者：艾萨克.阿西莫夫</view>
+    </view>
+    <view class="jianjie">世界经济还含有花了家家户户看快快</view>
+  </view>
+</view>
+<view class="rxb">
+  <image src="/img/38.png"></image>
+  <view class="rxbr">
+    <view style="color:white; font-size:18px; display: flow-root;padding-bottom:5px;"> 流浪地球
+      <view style=" float:right;line-height:24px;">...</view>
+      <view style="color:rgb(84,90,113); font-size:13px;">作者：刘慈欣</view>
+    </view>
+    <view class="jianjie">世界经济还含有花了家家户户看快快</view>
+  </view>
+</view>

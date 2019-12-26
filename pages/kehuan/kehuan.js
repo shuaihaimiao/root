@@ -1,4 +1,4 @@
-// pages/shouye/shouye.js
+// pages/kehuan/kehuan.js
 Page({
 
   /**
@@ -7,24 +7,9 @@ Page({
   data: {
 
   },
-  tansuo:function(){
+  stjs:function(){
     wx.navigateTo({
-      url: '../tansuo/tansuo',
-    })
-  },
-  shujia:function(){
-    wx.navigateTo({
-      url: '../shujia/shujia',
-    })
-  },
-  wode:function(){
-    wx.navigateTo({
-      url: '../my/my',
-    })
-  },
-  kehuan:function(){
-    wx.navigateTo({
-      url: '../kehuan/kehuan',
+      url: '../stjs/stjs',
     })
   },
   /**

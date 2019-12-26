@@ -6,7 +6,7 @@
   </view>
   <view class="big">
     <view class="small">
-      <image src="/img/03.png"></image>科幻
+      <image src="/img/03.png" bindtap="kehuan"></image>科幻
     </view>
     <view class="small">
       <image src="/img/04.png"></image>生活
