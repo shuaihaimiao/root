@@ -7,6 +7,12 @@ Page({
   data: {
 
   },
+  cixin:function(){
+wx.navigateTo({
+  url: '../liucixin/liucixin',
+})
+  },
+
   tansuo:function(){
     wx.navigateTo({
       url: '../tansuo/tansuo',

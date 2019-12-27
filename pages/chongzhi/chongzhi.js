@@ -1,52 +1,46 @@
-// pages/stjs/stjs.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    xxx: true,
-    zzz:true
+    close: true,
+    Modalbg: false,
+    money:"",
+    values:""
   },
-  pyx:function(){
-    wx.showModal({
-      title: '',
-      content: '分享成功',
-    })
-  },
-  collection: function () {
-    wx.showModal({
-      title: '提示',
-      content: '收藏成功',
-      success(res) {
-        if (res.confirm) {
-          console.log('用户点击确定')
-        } else if (res.cancel) {
-          console.log('用户点击取消')
-        }
-      }
-    })
+ 
+  payment() {
+    if (this.data.money>0){
+      this.setData({
+        close: false,
+        Modalbg: true,
+        values: this.data.money
+      })
+  }else{
+      wx.showToast({
+        title: '请输入正确金额',
+      
+        duration: 1000
+      })
   }
-  ,
-  shall: function () {
+
+  },
+  close() {
     this.setData({
-      xxx: false
-    }),
-      console.log(444)
-  },
-yyy(){
-  this.setData({
-    xxx:true
-  })
-},
-  shujia: function () {
-    wx.showModal({
-      title: '',
-      content: '这本书成功的放入了书架',
+      close: true,
+      Modalbg: false
     })
+
   },
+  emailInput: function (e) {
+    this.setData({
+      money: e.detail.value
+    });
+
+  },
+
   /**
-   * 
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
@@ -102,3 +96,5 @@ yyy(){
 
   }
 })
+
+

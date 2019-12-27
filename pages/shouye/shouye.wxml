@@ -23,7 +23,7 @@
     <view class="all">查看全部></view>
   </view>
   <view class="big">
-    <view class="small">
+    <view class="small" bindtap="cixin">
       <image src="/img/08.png"></image>刘慈欣
     </view>
     <view class="small">

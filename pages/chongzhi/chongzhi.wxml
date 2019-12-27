@@ -1,0 +1,26 @@
+
+<view class="container">
+<view class="header">
+
+</view>
+<view class="balance-body">
+<text class="balance-text">充值余额(元)</text>
+<view class="balance-number"> <input bindinput="emailInput" maxlength="7" type="number"/></view>
+</view>
+<view bindtap="payment" class="sign-out">下一步</view>
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{Modalbg}}"></view>
+
+<view hidden="{{close}}" class="share-page">
+<image bindtap="close" class="close" src="/img/cha.svg"/>
+<text class="recharge-text">确认支付(元)</text>
+<text class="input-number">{{values}}</text>
+<view class="bank"><text>订单信息</text><text class="bank-text">充值</text></view>
+<view class="bank"><text>付款方式</text><view class="bank-text"><text>建行银行卡(5614)</text><image src="/img/right.png"/></view></view>
+<view class="fingerprint">
+<image src="/img/45.png"/>
+<text claa="fingerprint-text">指纹验证或</text>
+<text class="password-text">输入密码</text>
+</view>
+</view>
+</view>

@@ -1,0 +1,172 @@
+
+.header{
+  display: flex;
+  justify-content: center;
+  width: 650rpx;
+  margin: 0 auto;
+}
+
+.header text{
+  display: block;
+  font-size: 40rpx;
+  color: #fff;
+}
+
+.header image{
+   width: 40rpx;
+  height: 40rpx;
+
+}
+
+.balance-body{
+  width: 650rpx;
+  margin: 0 auto;
+  background-color: #2b323b;
+  padding: 40rpx 0;
+  border-radius: 20rpx;
+  margin-top: 40rpx;
+
+
+}
+
+.balance-text{
+  display: block;
+      font-size: 40rpx;
+      color: #75808d;
+      padding-left: 40rpx;
+}
+
+.balance-number{
+  display: flex;
+  font-size: 90rpx;
+  color: #fff;
+  margin:0 40rpx;
+  padding-top: 10rpx;
+  border-bottom: 2rpx solid #75808d;
+  align-items: center;
+  
+}
+
+.balance-number input{
+padding: 0;
+margin: 0;
+height: 98rpx;
+font-size:90rpx;
+}
+
+.sign-out{
+  width: 100%;
+  height: 140rpx;
+  background-color: #2b323b;
+  font-size: 40rpx;
+  color: #fff;
+  line-height: 144rpx;
+  text-align: center;
+  position: absolute;
+  bottom:0;
+  border-radius: 8rpx;
+  border: 4rpx solid #22272d;
+  box-sizing: border-box;
+
+}
+
+.share-page{
+  width: 100%;
+  background-color: #2d353f;
+  position: fixed;
+  bottom: 0;
+  z-index: 5;
+}
+
+.mask{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: 4;
+    opacity: 0.7;
+}
+
+.close{
+  position: absolute;
+  top: 40rpx;
+  right: 40rpx;
+  z-index: 6;
+  width: 24rpx;
+  height: 24rpx;
+ background-color: rgba(0, 0, 0, 0.781);
+ border-radius: 50%;
+ border: 8rpx solid rgba(0, 0, 0, 0.781);
+}
+
+.recharge-text{
+  display: block;
+      font-size: 40rpx;
+      color: #75808d;
+      padding-left: 40rpx;
+      padding-top: 80rpx;
+      padding-bottom: 20rpx;
+      letter-spacing: 2rpx;
+}
+
+.input-number{
+  padding-left: 44rpx;
+    font-size: 90rpx;
+  color: #fff;
+  letter-spacing: 2rpx;
+}
+
+.bank{
+  letter-spacing: 2rpx;
+padding: 44rpx 44rpx 44rpx 0;
+margin-left: 44rpx;
+  display: flex;
+  justify-content: space-between;
+    font-size: 32rpx;
+  color:#dcdeea; 
+  border-bottom: 2rpx solid #414449;
+
+}
+
+.bank-text{
+  font-size: 26rpx;
+  color: #75808d;
+display: flex;
+align-items: center;
+letter-spacing: 0;
+}
+
+.bank image{
+  margin-top: 4rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.fingerprint{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60rpx 0;
+}
+
+.fingerprint image{
+  width: 68rpx;
+  height: 68rpx;
+}
+
+.fingerprint-text{
+  font-size: 34rpx;
+  color: #75808d;
+  padding: 0 10rpx;
+}
+
+.password-text{
+  font-size: 34rpx;
+  color: #fb6894;
+
+}
+
+
+

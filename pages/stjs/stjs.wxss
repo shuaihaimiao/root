@@ -146,17 +146,36 @@ border-radius: 50rpx;
    background-color: rebeccapurple;
    margin: auto;
    position: fixed;
-   bottom: 0;  
-   text-align: center;
+ bottom:  0;
+   display: flex; 
+  align-items: center;
+  justify-content: center;
   
  }
  .close{
    color: white;
-   float: right;
-   margin-right: 23.5rpx;
+ position: absolute;
+ top: 23.6rpx;
+ right: 33.6rpx;
  }
  .qq image{
    width: 85rpx;
    height: 85rpx;
    margin-top: 55rpx;
+   position: relative;
+ }
+ .vb{
+   width: 634rpx;
+   height: 100rpx;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .kuang{
+   width: 480rpx;
+   height: 600rpx;
+   background-color: black;
+   position: fixed;
+   top: 400rpx;
+   left: 135rpx;
  }

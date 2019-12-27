@@ -13,7 +13,10 @@
     "pages/yue/yue",
     "pages/pinglun/ping",
     "pages/kehuan/kehuan",
-    "pages/stjs/stjs"
+    "pages/stjs/stjs",
+    "pages/liucixin/liucixin",
+    "pages/chongzhi/chongzhi"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

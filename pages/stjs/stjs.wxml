@@ -1,3 +1,4 @@
+.
 <view class="rxb" bindtap="stjs">
   <image class="img1" src="/img/14.png"></image>
   <view class="rxbr">
@@ -56,8 +57,11 @@
 </view>
 <view hidden="{{xxx}}" class="qq">
   <view bindtap="yyy" class="close">x</view>
-  <image src="/img/41.png" bindtap="pyx"></image>
-  <image src="/img/42.png" bindtap="pyx"></image>
-  <image src="/img/43.png" bindtap="pyx"></image>
-  <image src="/img/44.png" bindtap="pyx"></image>
+  <view class="vb">
+    <image src="/img/41.png" bindtap="pyx"></image>
+    <image src="/img/42.png" bindtap="pyx"></image>
+    <image src="/img/43.png" bindtap="pyx"></image>
+    <image src="/img/44.png" bindtap="pyx"></image>
+  </view>
+
 </view>
