@@ -1,13 +1,11 @@
 <!--pages/shujia/shujia.wxml-->
-<view class="header">书架
-  <image class="img1" src="/img/30.png"></image>
-</view>
+
 <view class="bif">
   <view class="type">正在阅读</view>
-  <view class="all">查看全部></view>
+  <view class="all" bindtap="all">查看全部></view>
 </view>
 <view class="main">
-  <view class="small">
+  <view class="small" bindtap="stjs">
     <image src="/img/14.png" class="img2"></image>
     <view style="font-size:12px;color:white">三体.死神永生</view>
     <view style="color:white;font-size:12px">刘慈欣</view>
@@ -66,16 +64,16 @@
 </view>
 <view style="height:50px"></view>
  <view class="bottom">
-    <view class="bottomview">
+    <view class="bottomview" bindtap="shouye">
       <image src="/img/15.png"></image>
     </view>
     <view class="bottomview" bindtap="tansuo">
       <image src="/img/17.png"></image>
     </view>
-    <view class="bottomview" bindtap="shujia">
+    <view class="bottomview" >
       <image src="/img/20.png"></image>
     </view>
-    <view class="bottomview">
+    <view class="bottomview" bindtap="wode">
         <image src="/img/21.png"></image>
     </view>
   </view>

@@ -1,0 +1,94 @@
+/* pages/shujiaall/shujiaall.wxss */.tab {
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+  padding: 10rpx 0;
+}
+
+.topTabSwiper {
+  zoom: 1;
+}
+
+.topTabSwiper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.tabBorer {
+  border-bottom: 1px solid #f00;
+  color: #f00;
+}
+
+
+.swiper {
+  width: 100%;
+}
+
+.swiper_con {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+
+}
+/* pages/shujia/shujia.wxss */
+.header{
+text-align: center;
+color: white
+}
+.img1{
+  width: 20px;
+  height: 20px;
+  float: right;
+}
+.bif{
+  width: 270px;
+  display: flow-root;
+  margin: auto
+}
+.type{
+  float: left;
+  color: white;
+  line-height: 26.4px
+ 
+}
+.all{
+  float: right;
+  color: white;
+  line-height: 26.4px
+}
+.main{
+  width: 280px;
+  height: 160px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.small{
+  width: 90px;height: 160px;text-align: center;font-size: 12px;
+}
+.img2{
+  width: 90px;
+  height: 120px;
+}
+.bottom{
+  width: 100%;
+  height: 50px;
+ 
+position: fixed;
+bottom: 0px;
+display: flex;
+}
+.bottomview{
+  width: 80px;
+  height: 50px;
+background-color: rgb(33, 39, 46);
+text-align: center;
+
+}
+.bottomview image{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}

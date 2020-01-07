@@ -12,7 +12,21 @@ wx.navigateTo({
   url: '../liucixin/liucixin',
 })
   },
-
+  rankingall:function(){
+wx.navigateTo({
+  url: '../ranking/ranking',
+})
+  },
+  stjs:function(){
+    wx.navigateTo({
+      url: '../stjs/stjs',
+    })
+  },
+all:function(){
+  wx.navigateTo({
+    url: '../fenleiall/fenleiall',
+  })
+},
   tansuo:function(){
     wx.navigateTo({
       url: '../tansuo/tansuo',

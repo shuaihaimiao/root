@@ -7,7 +7,23 @@ Page({
   data: {
 
   },
-
+  stjs: function () {
+    wx.navigateTo({
+      url: '../stjs/stjs',
+    })
+  },
+  shall: function () {
+    wx.showModal({
+      title: '',
+      content: '分享成功',
+    })
+  },
+  pyx: function () {
+    wx.showModal({
+      title: '',
+      content: '关注成功',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

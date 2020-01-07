@@ -51,7 +51,7 @@
 </view>
 <view class="bottom">
   <view class="pay">
-    <view class="see">试看</view>
+    <view class="see" bindtap="shikan">试看</view>
     <view class="purchase">购买</view>
   </view>
 </view>

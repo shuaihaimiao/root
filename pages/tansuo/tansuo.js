@@ -5,7 +5,30 @@ Page({
    * 页面的初始数据
    */
   data: {
+    currentData: 0,
+  },
+  bindchange: function (e) {
+    const that = this;
+    that.setData({
+      currentData: e.detail.current
+    })
+  },
+  checkCurrent: function (e) {
+    const that = this;
 
+    if (that.data.currentData === e.target.dataset.current) {
+      return false;
+    } else {
+
+      that.setData({
+        currentData: e.target.dataset.current
+      })
+    }
+  },
+  my:function(){
+    wx.navigateTo({
+      url: '../my/my',
+    })
   },
   shujia: function () {
     wx.navigateTo({

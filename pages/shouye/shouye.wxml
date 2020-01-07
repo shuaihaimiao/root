@@ -2,7 +2,7 @@
   <view class="search"></view>
   <view class="bif">
     <view class="type">分类排行</view>
-    <view class="all">查看全部></view>
+    <view class="all" bindtap="all">查看全部></view>
   </view>
   <view class="big">
     <view class="small">
@@ -20,12 +20,13 @@
   </view>
   <view class="bif">
     <view class="type">作者排行</view>
-    <view class="all">查看全部></view>
+    <view class="all" bindtap="rankingall">查看全部 ></view>
+    <!-- bindtap="rankingall" -->
   </view>
   <view class="big">
     <view class="small" bindtap="cixin">
       <image src="/img/08.png"></image>刘慈欣
-    </view>
+    </view> 
     <view class="small">
       <image src="/img/09.png"></image>田小花
     </view>
@@ -42,7 +43,7 @@
     <view class="all">查看全部></view>
   </view>
   <view class="new">
-    <view class="small1">
+    <view class="small1"  bindtap="stjs">
       <image src="/img/1_03.png"></image>三体，死神永生
       <view class="zz">刘慈欣</view>
     </view>
@@ -83,7 +84,7 @@
     <view class="type">热销榜</view>
     <view class="all">查看全部></view>
   </view>
-  <view class="rxb">
+  <view class="rxb" bindtap="stjs">
     <image src="/img/14.png"></image>
     <view class="rxbr">
       <view style="color:white; font-size:18px; display: flow-root;padding-bottom:5px;"> 三体.死神永生

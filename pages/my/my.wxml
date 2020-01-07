@@ -1,14 +1,12 @@
 <!--pages/my/my.wxml-->
-<view class="my">我的
-  <image class="img1" src="/img/31.png" bindtap="my"></image>
-</view>
+
 <view class="header">
   <image class="img2" src="/img/32.png"></image>
   <view class="xx">
     <view class="name">高海淼</view>
     <view class="address">河南安阳</view>
   </view>
-  <view class="share">
+  <view class="share" bindtap="shall">
     <image src="/img/33.png"></image>分享
   </view>
 </view>
@@ -44,15 +42,25 @@
 </view>
 <view class="bottom">
   <view class="bottomview" bindtap="shouye">
-    <image src="/img/16.png"></image>
+    <image src="/img/15.png"></image>
   </view>
-  <view class="bottomview">
+  <view class="bottomview" bindtap="tansuo">
     <image src="/img/17.png"></image>
   </view>
   <view class="bottomview" bindtap="shujia">
     <image src="/img/19.png"></image>
   </view>
   <view class="bottomview">
-    <image src="/img/21.png"></image>
+    <image src="/img/22.png"></image>
   </view>
+</view>
+<view hidden="{{xxx}}" class="qq">
+  <view bindtap="yyy" class="close">x</view>
+  <view class="vb">
+    <image src="/img/41.png" bindtap="pyx"></image>
+    <image src="/img/42.png" bindtap="pyx"></image>
+    <image src="/img/43.png" bindtap="pyx"></image>
+    <image src="/img/44.png" bindtap="pyx"></image>
+  </view>
+
 </view>

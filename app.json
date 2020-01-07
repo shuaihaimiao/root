@@ -15,7 +15,11 @@
     "pages/kehuan/kehuan",
     "pages/stjs/stjs",
     "pages/liucixin/liucixin",
-    "pages/chongzhi/chongzhi"
+    "pages/chongzhi/chongzhi",
+    "pages/fenleiall/fenleiall",
+    "pages/ranking/ranking",
+    "pages/shujiaall/shujiaall",
+    "pages/shidu/shidu"
     
   ],
   "window": {

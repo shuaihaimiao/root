@@ -1,0 +1,227 @@
+<view class='topTabSwiper'>
+  <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}' data-current="0" bindtap='checkCurrent'>推荐</view>
+  <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}' data-current="1" bindtap='checkCurrent'>热点</view>
+  <view class='tab  {{currentData == 2 ? "tabBorer" : ""}}' data-current="2" bindtap='checkCurrent'>关注</view>
+</view>
+<swiper current="{{currentData}}" class='swiper' style="height:600px;" duration="300" bindchange="bindchange">
+  <swiper-item>
+    <view class='swiper_con'>
+      <!--pages/shujia/shujia.wxml-->
+      <view class="main">
+        <view class="small" bindtap="stjs">
+          <image src="/img/14.png" class="img2"></image>
+          <view style="font-size:12px;color:white">三体.死神永生</view>
+          <view style="color:white;font-size:12px">刘慈欣</view>
+        </view>
+        <view class="small">
+          <image src="/img/2_03.png" class="img2"></image>
+          <view style="font-size:12px; color:white">人类简史</view>
+          <view style="color:white;font-size:12px">尤瓦尔.郝拉利</view>
+        </view>
+
+        <view class="small">
+          <image src="/img/3_03.png" class="img2"></image>
+          <view style="font-size:12px;color:white">许三观卖血记</view>
+          <view style="color:white;font-size:12px">余华</view>
+        </view>
+      </view>
+      <view class="main">
+        <view class="small">
+          <image src="/img/12.png" class="img2"></image>
+          <view style="font-size:12px;color:white">未来简史</view>
+          <view style="color:white;font-size:12px">尤瓦尔.郝拉利</view>
+        </view>
+        <view class="small">
+          <image src="/img/13.png" class="img2"></image>
+          <view style="font-size:12px; color:white">自私的基因</view>
+          <view style="color:white;font-size:12px">理查德.道金斯</view>
+        </view>
+
+        <view class="small">
+          <image src="/img/11.png" class="img2"></image>
+          <view style="font-size:12px;color:white">百年孤独</view>
+          <view style="color:white;font-size:12px">马尔克斯</view>
+        </view>
+      </view>
+      <view class="main">
+        <view class="small">
+          <image src="/img/12.png" class="img2"></image>
+          <view style="font-size:12px;color:white">未来简史</view>
+          <view style="color:white;font-size:12px">尤瓦尔.郝拉利</view>
+        </view>
+        <view class="small">
+          <image src="/img/13.png" class="img2"></image>
+          <view style="font-size:12px; color:white">自私的基因</view>
+          <view style="color:white;font-size:12px">理查德.道金斯</view>
+        </view>
+
+        <view class="small">
+          <image src="/img/11.png" class="img2"></image>
+          <view style="font-size:12px;color:white">百年孤独</view>
+          <view style="color:white;font-size:12px">马尔克斯</view>
+        </view>
+      </view>
+      <view style="height:50px"></view>
+      <view class="bottom">
+        <view class="bottomview">
+          <image src="/img/15.png"></image>
+        </view>
+        <view class="bottomview" bindtap="tansuo">
+          <image src="/img/17.png"></image>
+        </view>
+        <view class="bottomview" bindtap="shujia">
+          <image src="/img/20.png"></image>
+        </view>
+        <view class="bottomview">
+          <image src="/img/21.png"></image>
+        </view>
+      </view>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class='swiper_con'>
+      <view class="main">
+        <view class="small" bindtap="stjs">
+          <image src="/img/14.png" class="img2"></image>
+          <view style="font-size:12px;color:white">三体.死神永生</view>
+          <view style="color:white;font-size:12px">刘慈欣</view>
+        </view>
+        <view class="small">
+          <image src="/img/2_03.png" class="img2"></image>
+          <view style="font-size:12px; color:white">人类简史</view>
+          <view style="color:white;font-size:12px">尤瓦尔.郝拉利</view>
+        </view>
+
+        <view class="small">
+          <image src="/img/3_03.png" class="img2"></image>
+          <view style="font-size:12px;color:white">许三观卖血记</view>
+          <view style="color:white;font-size:12px">余华</view>
+        </view>
+      </view>
+      <view class="main">
+        <view class="small">
+          <image src="/img/12.png" class="img2"></image>
+          <view style="font-size:12px;color:white">未来简史</view>
+          <view style="color:white;font-size:12px">尤瓦尔.郝拉利</view>
+        </view>
+        <view class="small">
+          <image src="/img/13.png" class="img2"></image>
+          <view style="font-size:12px; color:white">自私的基因</view>
+          <view style="color:white;font-size:12px">理查德.道金斯</view>
+        </view>
+
+        <view class="small">
+          <image src="/img/11.png" class="img2"></image>
+          <view style="font-size:12px;color:white">百年孤独</view>
+          <view style="color:white;font-size:12px">马尔克斯</view>
+        </view>
+      </view>
+      <view class="main">
+        <view class="small">
+          <image src="/img/12.png" class="img2"></image>
+          <view style="font-size:12px;color:white">未来简史</view>
+          <view style="color:white;font-size:12px">尤瓦尔.郝拉利</view>
+        </view>
+        <view class="small">
+          <image src="/img/13.png" class="img2"></image>
+          <view style="font-size:12px; color:white">自私的基因</view>
+          <view style="color:white;font-size:12px">理查德.道金斯</view>
+        </view>
+
+        <view class="small">
+          <image src="/img/11.png" class="img2"></image>
+          <view style="font-size:12px;color:white">百年孤独</view>
+          <view style="color:white;font-size:12px">马尔克斯</view>
+        </view>
+      </view>
+      <view style="height:50px"></view>
+      <view class="bottom">
+        <view class="bottomview">
+          <image src="/img/15.png"></image>
+        </view>
+        <view class="bottomview" bindtap="tansuo">
+          <image src="/img/17.png"></image>
+        </view>
+        <view class="bottomview" bindtap="shujia">
+          <image src="/img/20.png"></image>
+        </view>
+        <view class="bottomview">
+          <image src="/img/21.png"></image>
+        </view>
+      </view>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class='swiper_con'>
+      <view class="main">
+        <view class="small" bindtap="stjs">
+          <image src="/img/14.png" class="img2"></image>
+          <view style="font-size:12px;color:white">三体.死神永生</view>
+          <view style="color:white;font-size:12px">刘慈欣</view>
+        </view>
+        <view class="small">
+          <image src="/img/2_03.png" class="img2"></image>
+          <view style="font-size:12px; color:white">人类简史</view>
+          <view style="color:white;font-size:12px">尤瓦尔.郝拉利</view>
+        </view>
+
+        <view class="small">
+          <image src="/img/3_03.png" class="img2"></image>
+          <view style="font-size:12px;color:white">许三观卖血记</view>
+          <view style="color:white;font-size:12px">余华</view>
+        </view>
+      </view>
+      <view class="main">
+        <view class="small">
+          <image src="/img/12.png" class="img2"></image>
+          <view style="font-size:12px;color:white">未来简史</view>
+          <view style="color:white;font-size:12px">尤瓦尔.郝拉利</view>
+        </view>
+        <view class="small">
+          <image src="/img/13.png" class="img2"></image>
+          <view style="font-size:12px; color:white">自私的基因</view>
+          <view style="color:white;font-size:12px">理查德.道金斯</view>
+        </view>
+
+        <view class="small">
+          <image src="/img/11.png" class="img2"></image>
+          <view style="font-size:12px;color:white">百年孤独</view>
+          <view style="color:white;font-size:12px">马尔克斯</view>
+        </view>
+      </view>
+      <view class="main">
+        <view class="small">
+          <image src="/img/12.png" class="img2"></image>
+          <view style="font-size:12px;color:white">未来简史</view>
+          <view style="color:white;font-size:12px">尤瓦尔.郝拉利</view>
+        </view>
+        <view class="small">
+          <image src="/img/13.png" class="img2"></image>
+          <view style="font-size:12px; color:white">自私的基因</view>
+          <view style="color:white;font-size:12px">理查德.道金斯</view>
+        </view>
+
+        <view class="small">
+          <image src="/img/11.png" class="img2"></image>
+          <view style="font-size:12px;color:white">百年孤独</view>
+          <view style="color:white;font-size:12px">马尔克斯</view>
+        </view>
+      </view>
+      <view style="height:50px"></view>
+      <view class="bottom">
+        <view class="bottomview">
+          <image src="/img/15.png"></image>
+        </view>
+        <view class="bottomview" bindtap="tansuo">
+          <image src="/img/17.png"></image>
+        </view>
+        <view class="bottomview" bindtap="shujia">
+          <image src="/img/20.png"></image>
+        </view>
+        <view class="bottomview">
+          <image src="/img/21.png"></image>
+        </view>
+      </view>
+    </view>
+  </swiper-item>
+</swiper>

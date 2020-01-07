@@ -1,4 +1,4 @@
-// pages/shujia/shujia.js
+// pages/fenleiall/fenleiall.js
 Page({
 
   /**
@@ -7,40 +7,19 @@ Page({
   data: {
 
   },
-
-
+  stjs: function () {
+    wx.navigateTo({
+      url: '../stjs/stjs',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
 
   },
-  shouye:function(){
-    wx.navigateTo({
-      url: '../shouye/shouye',
-    })
-  },
-  all:function(){
-    wx.navigateTo({
-      url: '/pages/shujiaall/shujiaall',
-    })
-  },
-  wode: function () {
-    wx.navigateTo({
-      url: '/pages/my/my',
-    })
-  },
-  tansuo: function () {
-    wx.navigateTo({
-      url: '/pages/tansuo/tansuo',
-    })
-  },
-  stjs:function(){
-    wx.navigateTo({
-      url: '../stjs/stjs',
-    })
-  },
-    /**
+
+  /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {

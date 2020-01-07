@@ -1,0 +1,60 @@
+.main{
+  width: 650rpx;
+  height: 330rpx;
+color: white;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3rpx solid #01060e;
+}
+.main view{
+  width: 200rpx;
+
+  text-align: center
+
+}
+.img1{
+  width: 110rpx;
+  height: 110rpx;
+    margin-top: 40rpx;
+}
+.img2{
+  width: 180rpx;
+  height: 180rpx;
+}
+.rmzzview{
+  width: 650rpx;
+  margin:26rpx auto;
+  color: white;
+  display: flex;
+ 
+  justify-content: space-between
+}
+.lookall{
+  font-size: 26rpx;
+  color: #999
+}
+.yqxz {
+    overflow-x: auto;
+    height: 380rpx;
+    white-space: nowrap;
+     font-family: Monaco; font-size: 9pt;
+     color: #fff;
+}
+.autor1{
+height: 380rpx;
+line-height: 75rpx;
+text-align: center;
+}
+.guanzhu{
+  border: 1px solid #fff;
+  color: white;
+  width: 50%;
+  margin: auto;
+}
+.tab {
+  width: 215rpx;
+    display: inline-block;
+    height: 380rpx;
+    border-bottom: 4rpx solid transparent;  
+}

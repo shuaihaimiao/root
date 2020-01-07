@@ -1,0 +1,54 @@
+/* pages/fenleiall/fenleiall.wxss */
+.yqxz {
+    overflow-x: auto;
+
+    white-space: nowrap;
+     font-family: Monaco; font-size: 9pt;
+     color: #fff;
+}
+.autor1{
+
+line-height: 75rpx;
+text-align: center;
+}
+.tab {
+  width: 215rpx;
+    display: inline-block;
+ 
+    border-bottom: 4rpx solid transparent;  
+}
+.big{
+  width: 270px;
+height: 100px;
+  display: flex;
+  margin:10px auto;
+  justify-content: space-between;
+  color: white;
+  border-bottom:2px solid black 
+}
+.small{
+  width: 60px;
+  height: 100px;
+  font-size: 14px;
+
+}
+.small image{
+  width: 60px;height: 60px;
+}
+.new{
+  width: 270px;
+  margin:10px auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(41, 46, 54);
+}
+.small1{
+  width: 85px;
+font-size: 12.1px;
+color: white
+}
+.small1 image{
+  width: 85px;
+  height: 120px;
+}

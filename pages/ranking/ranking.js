@@ -1,46 +1,38 @@
-// pages/shujia/shujia.js
+// pages/ranking/ranking.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    userInfo: {},
+    hasUserInfo: false,
+    canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
-
-
+  switchTab: function (e) {
+    var oIndex = e.currentTarget.dataset.index;
+    var oLeft = e.currentTarget.offsetLeft;
+    if (oLeft == 327) {
+      this.setData({
+        left: 327,
+      })
+    } else if (oLeft == 0) {
+      this.setData({
+        left: 0,
+      })
+    }
+    this.setData({
+      oIndex: oIndex
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
 
   },
-  shouye:function(){
-    wx.navigateTo({
-      url: '../shouye/shouye',
-    })
-  },
-  all:function(){
-    wx.navigateTo({
-      url: '/pages/shujiaall/shujiaall',
-    })
-  },
-  wode: function () {
-    wx.navigateTo({
-      url: '/pages/my/my',
-    })
-  },
-  tansuo: function () {
-    wx.navigateTo({
-      url: '/pages/tansuo/tansuo',
-    })
-  },
-  stjs:function(){
-    wx.navigateTo({
-      url: '../stjs/stjs',
-    })
-  },
-    /**
+
+  /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {

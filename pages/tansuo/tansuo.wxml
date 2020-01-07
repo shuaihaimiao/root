@@ -1,21 +1,51 @@
 <!--pages/tansuo/tansuo.wxml-->
-<view class="tansuo">探索
-  <view bindtap="ts">
-    <image src="/img/27.png" class="img2"></image>
+<view class='topTabSwiper'>
+    <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}'  data-current = "0" bindtap='checkCurrent'>
+   
+     <image src="/img/28.png" class="img2 img3"></image>
+ </view>
+    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}'  data-current = "1" bindtap='checkCurrent'>
+     <image src="/img/27.png" class="img2"></image>
+    </view>
+ 
+</view>
+<swiper current="{{currentData}}" class='swiper' style="height:600px;" duration="300" bindchange="bindchange">
+  <swiper-item><view class='swiper_con'>
+  <image class="img1" src="/img/1_03.png"></image>
+<view class="st">三体，死神永生</view>
+<view class="name">刘慈欣</view>
+<view class="tuxiang">
+<image src="/img/23.png"></image>
+<image src="/img/25.png"></image>
+<image src="/img/24.png"></image>
+<image src="/img/26.png"></image>
+</view>
+  </view></swiper-item>
+  <swiper-item><view class='swiper_con'>
+   <view class="main">
+    <view>
+    <image class="img1" src="/img/14.png"></image>
+    <view>三体.死神永生</view>
+    </view>
+    <view>
+        <image class="img1" src="/img/11.png"></image>
+        <view>百年孤独</view>
+    </view>
+    <view>
+        <image class="img1" src="/img/29.png"></image>
+        <view>平凡的世界</view>
+    </view>
+    <view>
+        <image class="img1" src="/img/12.png"></image>
+        <view>未来简史</view>
+    </view>
   </view>
+  </view></swiper-item>
+  
+</swiper>
 
-  <image src="/img/28.png" class="img2 img3"></image>
-</view>
-<image class="img1" src="/img/1_03.png"></image>
-<view style="text-align:center; color:white;font-size:20px">三体.死神永生</view>
-<view style="text-align:center">刘慈欣</view>
-<view class="touxiang">
-  <image src="/img/23.png"></image>
-  <image src="/img/24.png"></image>
-  <image src="/img/25.png"></image>
-  <image src="/img/26.png"></image>
-</view>
-<view style="text-align:center;font-size:14px;">403人阅读</view>
+
+<view class="read">457人阅读</view>
 <view class="bottom">
   <view class="bottomview" bindtap="shouye">
     <image src="/img/15.png"></image>
@@ -26,7 +56,7 @@
   <view class="bottomview" bindtap="shujia">
     <image src="/img/19.png"></image>
   </view>
-  <view class="bottomview">
+  <view class="bottomview" bindtap="my">
     <image src="/img/21.png"></image>
   </view>
 </view>

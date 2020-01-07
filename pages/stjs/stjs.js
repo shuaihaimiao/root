@@ -14,6 +14,11 @@ Page({
       content: '分享成功',
     })
   },
+  shikan:function(){
+    wx.navigateTo({
+      url: '../shidu/shidu',
+    })
+  },
   collection: function () {
     wx.showModal({
       title: '提示',
@@ -42,7 +47,7 @@ yyy(){
   shujia: function () {
     wx.showModal({
       title: '',
-      content: '这本书成功的放入了书架',
+      content: '是否确定放入了书架',
     })
   },
   /**

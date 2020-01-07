@@ -1,0 +1,147 @@
+<view class="main">
+  <view>
+    <image class="img1" src="/img/23.png"></image>
+    <view class="name">余秋雨</view>
+    <view>5869粉丝</view>
+  </view>
+  <view>
+    <image class="img2" src="/img/32.png"></image>
+    <view class="name">刘慈欣</view>
+    <view>6598粉丝</view>
+  </view>
+  <view>
+    <image class="img1" src="/img/25.png"></image>
+    <view class="name">田小花</view>
+    <view>4526粉丝</view>
+  </view>
+</view>
+<view class="rmzz">
+  <view class="rmzzview">
+    <view>热门作者</view>
+    <view class="lookall">查看全部</view>
+  </view>
+</view>
+<scroll-view scroll-x class='yqxz' style="width: 100%" scroll-left="{{left}}" scroll-with-animation>
+  <view class="tab {{oIndex==0?'focus':' '}}" data-index='0' bindtap="switchTab">
+    <view class="autor1">
+      <image src="/img/25.png" class="img1"></image>
+      <view>王媛媛</view>
+      <view class="guanzhu">已关注</view>
+    </view>
+  </view>
+  <view class="tab {{oIndex==1?'focus':' '}}" data-index='1' bindtap="switchTab">
+   <view class="autor1">
+      <image src="/img/25.png" class="img1"></image>
+      <view>王媛媛</view>
+      <view class="guanzhu">已关注</view>
+    </view>
+  </view>
+  <view class="tab {{oIndex==2?'focus':' '}}" data-index='2' bindtap="switchTab">
+   <view class="autor1">
+      <image src="/img/25.png" class="img1"></image>
+      <view>王媛媛</view>
+      <view class="guanzhu">已关注</view>
+    </view>
+  </view>
+  <view class="tab {{oIndex==3?'focus':' '}}" data-index='3' bindtap="switchTab">
+   <view class="autor1">
+      <image src="/img/25.png" class="img1"></image>
+      <view>王媛媛</view>
+      <view class="guanzhu">已关注</view>
+    </view>
+  </view>
+  <view class="tab {{oIndex==0?'focus':' '}}" data-index='0' bindtap="switchTab">
+   <view class="autor1">
+      <image src="/img/25.png" class="img1"></image>
+      <view>王媛媛</view>
+      <view class="guanzhu">已关注</view>
+    </view>
+  </view>
+  <view class="tab {{oIndex==1?'focus':' '}}" data-index='1' bindtap="switchTab">
+   <view class="autor1">
+      <image src="/img/25.png" class="img1"></image>
+      <view>王媛媛</view>
+      <view class="guanzhu">已关注</view>
+    </view>
+  </view>
+  <view class="tab {{oIndex==2?'focus':' '}}" data-index='2' bindtap="switchTab">
+   <view class="autor1">
+      <image src="/img/25.png" class="img1"></image>
+      <view>王媛媛</view>
+      <view class="guanzhu">已关注</view>
+    </view>
+  </view>
+  <view class="tab {{oIndex==3?'focus':' '}}" data-index='3' bindtap="switchTab">
+   <view class="autor1">
+      <image src="/img/25.png" class="img1"></image>
+      <view>王媛媛</view>
+      <view class="guanzhu">已关注</view>
+    </view>
+  </view>
+
+</scroll-view>
+<view class="rmzz">
+  <view class="rmzzview">
+    <view>新晋作者</view>
+    <view class="lookall">查看全部</view>
+  </view>
+</view>
+<scroll-view scroll-x class='yqxz' style="width: 100%" scroll-left="{{left}}" scroll-with-animation>
+  <view class="tab {{oIndex==0?'focus':' '}}" data-index='0' bindtap="switchTab">
+    <view class="autor1">
+      <image src="/img/25.png" class="img1"></image>
+      <view>王媛媛</view>
+      <view class="guanzhu">已关注</view>
+    </view>
+  </view>
+  <view class="tab {{oIndex==1?'focus':' '}}" data-index='1' bindtap="switchTab">
+   <view class="autor1">
+      <image src="/img/25.png" class="img1"></image>
+      <view>王媛媛</view>
+      <view class="guanzhu">已关注</view>
+    </view>
+  </view>
+  <view class="tab {{oIndex==2?'focus':' '}}" data-index='2' bindtap="switchTab">
+   <view class="autor1">
+      <image src="/img/25.png" class="img1"></image>
+      <view>王媛媛</view>
+      <view class="guanzhu">已关注</view>
+    </view>
+  </view>
+  <view class="tab {{oIndex==3?'focus':' '}}" data-index='3' bindtap="switchTab">
+   <view class="autor1">
+      <image src="/img/25.png" class="img1"></image>
+      <view>王媛媛</view>
+      <view class="guanzhu">已关注</view>
+    </view>
+  </view>
+  <view class="tab {{oIndex==0?'focus':' '}}" data-index='0' bindtap="switchTab">
+   <view class="autor1">
+      <image src="/img/25.png" class="img1"></image>
+      <view>王媛媛</view>
+      <view class="guanzhu">已关注</view>
+    </view>
+  </view>
+  <view class="tab {{oIndex==1?'focus':' '}}" data-index='1' bindtap="switchTab">
+   <view class="autor1">
+      <image src="/img/25.png" class="img1"></image>
+      <view>王媛媛</view>
+      <view class="guanzhu">已关注</view>
+    </view>
+  </view>
+  <view class="tab {{oIndex==2?'focus':' '}}" data-index='2' bindtap="switchTab">
+   <view class="autor1">
+      <image src="/img/25.png" class="img1"></image>
+      <view>王媛媛</view>
+      <view class="guanzhu">已关注</view>
+    </view>
+  </view>
+  <view class="tab {{oIndex==3?'focus':' '}}" data-index='3' bindtap="switchTab">
+   <view class="autor1">
+      <image src="/img/25.png" class="img1"></image>
+      <view>王媛媛</view>
+      <view class="guanzhu">已关注</view>
+    </view>
+  </view>
+
+</scroll-view>

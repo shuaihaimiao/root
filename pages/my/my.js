@@ -5,16 +5,43 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    xxx: true,
+    zzz: true
   },
   my:function(){
     wx.navigateTo({
       url: '../shezhi/shezhi',
     })
   },
+  shouye:function(){
+    wx.navigateTo({
+      url: '../shouye/shouye',
+    })
+  },
+  shujia:function(){
+    wx.navigateTo({
+      url: '../shujia/shujia',
+    })
+  },
+  tansuo:function(){
+    wx.navigateTo({
+      url: '../tansuo/tansuo',
+    })
+  },
   yue:function(){
     wx.navigateTo({
       url: '../yue/yue',
+    })
+  },
+  shall: function () {
+    this.setData({
+      xxx: false
+    }),
+      console.log(444)
+  },
+  yyy() {
+    this.setData({
+      xxx: true
     })
   },
   pinglun:function(event){

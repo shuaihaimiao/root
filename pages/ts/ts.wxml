@@ -1,11 +1,7 @@
 <!--pages/ts/ts.wxml-->
 <view class="tansuo">探索
-  <view>
-    <image src="/img/27.png" class="img2"></image>
-  </view>
-  <view bindtap="ts">
-    <image src="/img/28.png" class="img2 img3"></image>
-  </view>
+
+  
   <view class="main">
     <view>
     <image class="img1" src="/img/14.png"></image>

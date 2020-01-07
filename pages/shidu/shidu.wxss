@@ -1,0 +1,7 @@
+/* pages/shidu/shidu.wxss */
+.zi{
+  color: rgb(201, 201, 206)
+}
+.top{
+  margin-top: 26rpx;
+}
